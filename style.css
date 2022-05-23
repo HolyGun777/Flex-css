@@ -1,0 +1,101 @@
+/* Commentaire en CSS*/
+
+
+/* Dev by Eddy */
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+
+/* Flex */
+
+.row {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-btw {
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.jus-center {
+    display: flex;
+    justify-content: center;
+}
+
+.al-itm-center {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Color (bg, text, bdr, ...) */
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.nav1 {
+    top: 0;
+    width: 100%;
+    height: 14vh;
+    border-bottom: solid 1px black;
+    position: fixed;
+}
+
+.with,
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Marging*/
+
+.marg-15 {
+    margin: 15px;
+}
+
+.marg-L {
+    margin-left: 10px;
+}
+
+.marg-R {
+    margin-right: 10px;
+}
+
+.marg-top {
+    margin-top: 10px;
+}
